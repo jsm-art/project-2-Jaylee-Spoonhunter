@@ -1,1 +1,84 @@
 /* STYLE FOR YOU MAIN.HTML */
+body{
+    margin: 0;
+    background-color: #508fc8;
+}
+
+.eb-garamond {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style:normal;
+}
+
+.flexcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: "EB Garamond", serif;
+    text-decoration: underline;
+    color: white;
+}
+
+p{
+    font-family: "EB Garamond", serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home{
+    display: block;
+    padding: 15px 30px;
+    margin: 5% auto;
+    width: 100px;
+    border: 3px solid #e23854;
+    border-radius: 10px;
+    color: white;
+    background-color: #FFB511;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.nari{
+    display: block;
+    padding: 15px 30px;
+    margin: 5% auto;
+    width: 100px;
+    border: 3px solid #e09e0f;
+    border-radius: 10px;
+    color: white;
+    background-color: #FFB511;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.campusgroups{
+    display: block;
+    padding: 15px 30px;
+    margin: 5% auto;
+    width: 100px;
+    border: 3px solid #e09e0f;
+    border-radius: 10px;
+    color: white;
+    background-color: #FFB511;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.instagram{
+    display: block;
+    padding: 15px 30px;
+    margin: 5% auto;
+    width: 100px;
+    border: 3px solid #e09e0f;
+    border-radius: 10px;
+    color: white;
+    background-color: #FFB511;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}

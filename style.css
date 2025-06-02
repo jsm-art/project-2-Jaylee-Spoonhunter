@@ -1,20 +1,55 @@
 /* STYLE FOR YOUR INDEX.HTML */
+
+body{
+    margin: 0;
+    background: linear-gradient(90deg,rgba(18, 149, 216, 1) 0%, rgba(124, 126, 127, 1) 49%, rgba(255, 181, 17, 1) 100%);
+}
+
 .eb-garamond {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
   font-style:normal;
 }
 
-body{
-background: #1295D8;
-background: linear-gradient(90deg,rgba(18, 149, 216, 1) 0%, rgba(124, 126, 127, 1) 49%, rgba(255, 181, 17, 1) 100%);
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .AISAHEADER{
 font-family: "EB Garamond", serif;
-font-size: 500px;
+font-size: 50px;
+color: white;
+padding-bottom: 200px;
+}
+
+a{
+    text-decoration: none;
 }
 
 .AISAINFO{
+    display: block;
+    padding: 100px 200px;
+    margin: 5% auto;
+    border: 5px solid darkblue;
+    border-radius: 10px;
+    color: white;
+    background-color: #508fc8;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
 
+.AISAINFO:hover{
+    background: darkblue;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.AISAINFO:active{
+    transform: scale(0.9, 0.9);
 }
